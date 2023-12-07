@@ -16,5 +16,7 @@ RUN ./make-parafem MACHINE=Linuxdesktop
 ENV PATH ="${PATH}":/ParaFEM/parafem/bin
 WORKDIR /ParaFEM/parafem/examples
 
+RUN mkdir /scratch
+
 ENTRYPOINT /bin/bash
 
