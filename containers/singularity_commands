@@ -1,0 +1,1 @@
+sudo singularity build parafem.sif docker://williamjsmith15/parafem:05122023
